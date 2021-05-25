@@ -1,21 +1,22 @@
 # ![JS](../images/js.png "I'm Popular") JavaScript 
 
-What is JavaScript?
--
+## What is JavaScript?
+
 * It is a dynamic type variable. It makes interactive web pages.
 * In JavaScript everything is an Object.
 
-* Two categories:
-    * [Primitive](#Primitive) (Copy by Value)
-        * String : Characters.
-        * Number : Numeric Value.
-        * Boolean : True or False.
-        * Undefined : It is value and type also.
-        * Null : Null value.
-        * Symbol
-    * [Non-primitive](#Non-primitive) (Cody by Reference)
-        * Object : All JavaScript values except primitives are objects.
-        * Array : List
+### Two categories:
+  * [Primitive](#Primitive) (Copy by Value)
+      * String : Characters.
+      * Number : Numeric Value.
+      * Boolean : True or False.
+      * Undefined : It is value and type also.
+      * Null : Null value.
+      * Symbol
+  
+  * [Non-primitive](#Non-primitive) (Cody by Reference)
+      * Object : All JavaScript values except primitives are objects.
+      * Array : List
 
 
 ---
@@ -23,7 +24,7 @@ What is JavaScript?
 ---
 
 Value       |   typeof
----         |   :---:
+:---:       |   :---:
 "Hello"     |   string
 9           |   number
 true/false  |   boolean
@@ -106,7 +107,7 @@ True
 ```
 
 ## **Non-primitive**
-> Array : 
+### `Array :` 
 ```JavaScript
 var arr=[2];
 
@@ -123,8 +124,8 @@ console.log(arr.length);
 ```
 ---
 
-**Lexical scope** 
--
+## **Lexical scope** 
+
 First if variables is ES6, it will check first in lexical scope, then, parents lexical scope, then function scope, and lastly parents.
 
 ```JavaScript
@@ -162,11 +163,11 @@ console.log(b);
 ```
  
 ---
-##  **var, let and const**
+##  **var let and const**
 
 ---
 |**Keyword**       | **var**              |    **const**    |      **let**
-----           | ---              |    -----    |      ---
+---           | ---              |    ---    |      ---
 Version           | ES5              |    ES6      |      ES6
 Scoped         | Global           |    Block    |      Block
 Variables      | can be updated as well as re-declared | can be updated but cannot re-declared | cannot be updated or re-declared

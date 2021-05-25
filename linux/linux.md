@@ -15,6 +15,8 @@ Popular Linux distributions
 >* Solus
 
 ---
+## Linux cmd
+
 1. Listing : 
     
     ``ls`` command is used to list down all the files and directories there in a directory.
@@ -58,7 +60,7 @@ Popular Linux distributions
 
     Prints a list of currently logged in users, time of the system boot.
     >$ who  
-    root    pts/0   2021-05-23 20:30
+    root    pts/0   2021-05-23 20:30    
     linux   pts/1   2021-05-23  20:31
 
 3. whoami:
