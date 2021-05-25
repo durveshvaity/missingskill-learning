@@ -1,6 +1,6 @@
 # [LINUX](#About)
 
-![Tux] 
+![Tux](../images/tux.png "Hello, I'm Tux.")
 
 ## About
 1. **Operating system kernal**.
@@ -26,8 +26,40 @@ Popular Linux distributions
    Change Directory.
    >$ cd Desktop/missingskill-learning/
 
+1. touch :
+
+    To create new file.
+    >$ touch file1
+
+1. cat :
+   
+   To modify, update and display files.
+   >$ cat > file1   
+    Hello, I'm Vaity.
+
+1. cp :
+
+   To copy file to destination directory. 
+   >cp file1 ~/Desktop/Moon
+
+1. mv :
+
+   To move file to destination.
+   >mv file1 ~/Desktop
+
+1. pwd :
+   
+   Gives path of working directory.
+   >$ pwd   
+   /c/Users/Hp/Desktop/missingskill-learning
+
+
 2. who :
 
+    Prints a list of currently logged in users, time of the system boot.
+    >$ who  
+    root    pts/0   2021-05-23 20:30
+    linux   pts/1   2021-05-23  20:31
 
 3. whoami:
 
@@ -62,8 +94,15 @@ Popular Linux distributions
     947     946     947      10652  pty0        
     197609 14:55:55 /usr/bin/bash
 
-7. 
+1. clear :
+   
+   To clear the terminal screen.
+   >$ clear
 
+2. exit :
+
+   To exit the terminal.
+   >$ exit
 
 
 
@@ -72,6 +111,6 @@ Popular Linux distributions
 
 
 <!-- Reference -->
-[Tux]: images/tux.png "Hello, I'm Tux."
+  
 
 

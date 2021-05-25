@@ -1,4 +1,4 @@
-# ![JS] JavaScript 
+# ![JS](../images/js.png "I'm Popular") JavaScript 
 
 What is JavaScript?
 -
@@ -121,9 +121,9 @@ console.log(arr);
 console.log(arr.length);
 6
 ```
+---
 
-
-**Lexical scope :** 
+**Lexical scope** 
 -
 First if variables is ES6, it will check first in lexical scope, then, parents lexical scope, then function scope, and lastly parents.
 
@@ -160,11 +160,14 @@ console.log(b);
 5
 30
 ```
+ 
 ---
+##  **var, let and const**
 
-**Keyword**       | **var**              |    **const**    |      **let**
+---
+|**Keyword**       | **var**              |    **const**    |      **let**
 ----           | ---              |    -----    |      ---
-name           | ES5              |    ES6      |      ES6
+Version           | ES5              |    ES6      |      ES6
 Scoped         | Global           |    Block    |      Block
 Variables      | can be updated as well as re-declared | can be updated but cannot re-declared | cannot be updated or re-declared
 Initialization | undefined        | not initialized | not initialized
@@ -172,6 +175,5 @@ Initialization | undefined        | not initialized | not initialized
 
 
 
-reference
+<!-- reference -->
 
-[JS]: https://i.ibb.co/51t0Nyc/Js.png "I'm Popular"
