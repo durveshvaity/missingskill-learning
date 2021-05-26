@@ -166,11 +166,52 @@ console.log(names)
    
 ['Sup','nin','chi']
 
+>**indexOf in array** : indexOf() method returns index of the object. 
+
+```JavaScript
+var names = ["Sup","nin","chi","nik"];
+
+var index = names.indexOf("chi");
+console.log(index)
+```
+`Output :`
+   
+2
+
+>To avoid -1 return value if not found we can use <!== -1> condition.
+```JavaScript
+var names = ["Sup","nin","chi","nik"];
+
+if(names.indexOf("chi") !== -1){
+    console.log("Item found");
+}else{
+    console.log("Item is not present")
+}
+```
+`Output :`
+   
+Item found
+
+>We can also use includes to check in ES6.
+```JavaScript
+var names = ["Sup","nin","chi","nik"];
+
+if(names.includes("chi")){
+    console.log("Item found");
+}else{
+    console.log("Item is not present")
+}
+```
+`Output :`
+   
+Item found
+
 ---
 
 ## **Lexical scope** 
 
-First if variables is ES6, it will check first in lexical scope, then, parents lexical scope, then function scope, and lastly parents.
+First if variables in ES6, it will check first in lexical scope, then, parents lexical scope, then function scope, and lastly parents.    
+>Lexical scope stays Within the { }. 
 
 ```JavaScript
 let a= 4;
@@ -206,6 +247,13 @@ console.log(b);
 30
 ```
  
+## **Global scope**
+> Any var declared outside a function is Global.
+> All object and function can access it.
+
+## **Function scope**
+> Function scope can be accessed only within the function, if var is not there it will call the nearest parent function.
+
 ---
 ##  **var let and const**
 
