@@ -108,20 +108,64 @@ True
 
 ## **Non-primitive**
 ### `Array :` 
+
 ```JavaScript
 var arr=[2];
 
 console.log(arr.length);
+```
+`Output :`
+
 1
 
+```JavaScript
 var arr=[2,3,7,null,[],{}];
 
 console.log(arr);
-(6) [2, 3, 7, null, Array(0), {…}]
-
 console.log(arr.length);
-6
 ```
+`Output :`    
+(6) [2, 3, 7, null, Array(0), {…}]    
+6
+
+>**Adding in array**
+```JavaScript
+var names = ["Sup","nin","chi"];
+
+names[11] = "nu";
+
+console.log(names.lenght)
+console.log(names)
+```
+`Output :`
+
+12    
+['Sup','nin','chi',<8 empty items>,'nu']
+
+>**Push in array** : It will add in last of the array.
+```JavaScript
+var names = ["Sup","nin","chi"];
+
+names.push["nu","ali"];
+
+console.log(names)
+```
+`Output :`
+   
+['Sup','nin','chi','nu','ali']
+
+>**Pop in array** : It will remove from last of the array.
+```JavaScript
+var names = ["Sup","nin","chi","nik"];
+
+names.pop();
+
+console.log(names)
+```
+`Output :`
+   
+['Sup','nin','chi']
+
 ---
 
 ## **Lexical scope** 
